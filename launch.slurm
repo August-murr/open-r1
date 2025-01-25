@@ -37,6 +37,7 @@ export CMD=" \
     src/open_r1/sft.py \
     --model_name_or_path $MODEL_PATH \
     --dataset_name $DATASET_PATH \
+    --use_liger_kernel True \
     --learning_rate 2.0e-5 \
     --num_train_epochs 1 \
     --packing \
